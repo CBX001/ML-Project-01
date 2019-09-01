@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <link rel="stylesheet" href="../css/custom_class.css">
+    <title>Custom Object Classification</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="pages"><a href="../index.html">Home</a></li>
+                <li class="pages"><a href="predict.html">Image Classification</a></li>
+                <li class="pages"><a href="live_class.html">Live Classification</a></li>
+                <li class="pages"><a href="custom-class.html">Custom Classification</a></li>
+            </ul>
+            <h1>Custom Object Classification</h1>
+        </nav>
+    </header>
+    <section>
+        <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+        <span>     
+                <div id="console"></div>
+        </span>
+    </section>
+
+    <section>
+        <span>
+        <button class="btn-classifier" id="class-a">Add A</button>
+        <button class="btn-classifier" id="class-b">Add B</button>
+        <button class="btn-classifier" id="class-c">Add C</button>
+        </span>
+
+    </section>
+
+    <footer>footer</footer>
+    <script src="../js/custom_class.js"></script>
+</body>
+
+
+</html>

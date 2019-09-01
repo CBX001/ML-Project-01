@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Locations</title>
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <link rel="stylesheet" href="../css/live_class.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="pages"><a href="../index.html">Home</a></li>
+                <li class="pages"><a href="predict.html">Image Classification</a></li>
+                <li class="pages"><a href="live_class.html">Live Classification</li>
+                <li class="pages"><a href="custom_class.html">Custom Classification</li>
+            </ul>
+            <h1>Live Object Classification</h1>
+        </nav>
+        <ul class="comment-list">
+            <p>A interactive and real-time image classification using a webcam</p>
+            <li>Move an object close to the webcam, then in the browser
+                 view the real-time image with prediction and probability</li>
+        </ul>
+    </header>
+    <section>
+        <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+        <span>
+            <div id="console"></div>
+        </span>
+    </section>
+
+    <footer>week one • machine learning • python/keras/tensorflow • html/css/javascript • image classification
+        </footer>
+    <script src="../js/live_class.js"></script>
+</body>
+
+</html>
