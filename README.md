@@ -1,2 +1,2 @@
 # JS-Image-Classifier-01
-JS-Image-Classifier-01 is a demo of Image Classifiers using Tensorflow JS. Originally created for Siraj Ravel's Machine Learning Course Week 1 homework assignment.
+ML_Project-01 is a demo of Image Classification using Tensorflow JS. Originally created for Siraj Raval's Make Money with Machine Learning Course as Week 1 homework assignment.
